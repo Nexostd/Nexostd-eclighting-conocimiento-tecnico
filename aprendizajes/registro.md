@@ -39,3 +39,7 @@
 **2026-10-28 — Instrucciones v3:** se incorporan estados de validación (Confirmado, Condicional, Alternativa, No verificado, No compatible), tabla de equivalencias atributo por atributo, auditoría de cotizaciones (Crítico, Revisar, Validado), separación del pedido en atributos y más distinciones técnicas. Se crean `equivalencias-aprobadas.md` y `referencias-validadas.md`.
 
 **2026-10-28 — Alcance de gestión pendiente:** se mantiene solo stock a mano, sin precios ni costos, hasta que se decida si se amplía a reservado, libre, entrante y proveedores.
+
+**2026-10-28 — Alcance de gestión (opción 2):** además del stock a mano, en consultas de disponibilidad el asistente muestra reservado (`qty_available` − `free_qty`), libre (`free_qty`), entrante (`incoming_qty`) y previsto (`virtual_available`). Precios, costos y proveedores quedan fuera. Campos verificados en Odoo el 2026-10-28.
+
+**2026-10-28 — Unidad de medida en Odoo:** hay cables cargados con unidad «Unidades» aunque el stock se lleva en metros. El asistente no debe asumir la unidad por el campo `uom_id`.

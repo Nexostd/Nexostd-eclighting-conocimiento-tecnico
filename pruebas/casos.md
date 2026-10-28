@@ -70,3 +70,8 @@ En cada prueba registrar: resultado esperado, producto identificado, fuentes usa
 ## C17: Auditoría de cotización
 - Consulta: revisar una cotización contra el pedido del cliente.
 - Debe clasificar observaciones en Crítico / Revisar / Validado. Si no tiene el pedido original, debe decir que no puede confirmar la coincidencia completa.
+
+## C18: Stock libre
+- Consulta: «¿Cuánto unipolar 2,5 rojo Trefi tengo libre? Necesito 200 m».
+- Debe leer en una sola consulta `qty_available`, `free_qty`, `incoming_qty` y `virtual_available`, mostrar A mano / Reservado / Libre / Entrante por artículo y comparar los 200 m contra **Libre**.
+- No debe sumar colores distintos ni mostrar precios. Si la unidad de Odoo no coincide con metros, aclararlo.
