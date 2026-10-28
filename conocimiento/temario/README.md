@@ -1,7 +1,8 @@
 # Temario técnico ECLIGHTING – base de conocimiento
 
 Base de preguntas y respuestas técnicas para el asistente técnico y para capacitar a la oficina.
-Origen: Temario Técnico v1.0 (73 preguntas, 2026-10-27) + Complemento v1.1 (26 preguntas, 2026-10-28).
+Origen: Temario Técnico v1.0 (73 preguntas, 2026-10-27) + Complemento v1.1 (26 preguntas, 2026-10-28) + Módulo 09 de reglas de cotización del equipo (2026-10-28).
+El Módulo 09 no son preguntas: son reglas del equipo que el asistente aplica siempre que la consulta encaje.
 
 **Estado:** BORRADOR pendiente de revisión del área técnica. Ante un dato crítico de seguridad, mandan la ficha del fabricante y el pliego del cliente.
 
@@ -17,6 +18,7 @@ Origen: Temario Técnico v1.0 (73 preguntas, 2026-10-27) + Complemento v1.1 (26 
 | `06-puesta-a-tierra-conexionado.md` | Puesta a tierra y conexionado | PT01–PT10 |
 | `07-interpretacion-cotizaciones.md` | Interpretación de cotizaciones | Q01–Q08 + checklist |
 | `08-iluminacion.md` | Iluminación | L01–L13 |
+| `09-reglas-de-cotizacion.md` | Reglas de cotización ECLIGHTING (cómo interpretamos y qué necesitamos) | I01–I04, jerga, FA01–FA03, datos por familia |
 
 ## Formato de cada entrada
 

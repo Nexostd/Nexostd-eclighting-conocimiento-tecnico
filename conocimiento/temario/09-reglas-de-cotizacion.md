@@ -1,4 +1,5 @@
-# Reglas de cotización ECLIGHTING – cómo interpretamos y qué necesitamos
+# Módulo 09 – Reglas de cotización ECLIGHTING
+Cómo interpretamos un pedido y qué necesitamos cuando nos piden un producto o una familia.
 Este documento describe cómo cotiza el equipo de ECLIGHTING: cómo leemos un pedido y, cuando alguien pide un producto o una familia, qué entendemos que necesita.
 El asistente aplica estas reglas SIEMPRE que la consulta encaje, aunque el usuario no las repita. Sin precios ni stock.
 Estado de cada regla: **Vigente** (definida o confirmada por el equipo) o **Propuesta** (aplicar con aviso hasta que se confirme).
@@ -41,13 +42,13 @@ El cliente pide en pulgadas; las líneas de PVC están en mm. Equivalencia comer
 | caño PVC / caño rígido | Tubo rígido de PVC | TUBO RÍGIDO |
 | tarugo / taco | Taco de expansión | TARUGO, TACO, S6 / S8 / S10 |
 | unipolar 2,5 | Cable unipolar 1x2,5 mm² | CABLE UNIP. 1X2.50 |
-| bornes / borneras Zoloda | Familia Zoloda para tablero completa (ver F01) | BPN, BSLKN, D-BPN, JSSB, EKN1, SE1 |
+| bornes / borneras Zoloda | Familia Zoloda para tablero completa (ver FA01) | BPN, BSLKN, D-BPN, JSSB, EKN1, SE1 |
 
 ---
 
 ## 3. Cuando nos piden una familia, necesitamos…
 
-### F01 · Familia Zoloda para tablero (borneras) – Vigente (definida por Nicolás, 2026-10-28)
+### FA01 · Familia Zoloda para tablero (borneras) – Vigente (definida por Nicolás, 2026-10-28)
 **Cuándo aplica:** piden "bornes Zoloda", "borneras Zoloda", "familia Zoloda para tablero", "accesorios BPN" o un tablero con borneras Zoloda.
 **Qué necesitamos:** siempre el juego completo, no solo el borne:
 
@@ -62,12 +63,12 @@ El cliente pide en pulgadas; las líneas de PVC están en mm. Equivalencia comer
 
 **Cómo elegir:** la sección del cable define el BPN, y el BPN define la tapa D-BPN y el puente JSSB. Tierra: BSLKN de la misma sección. Los JSSB-xx/BKF son para bornes a resorte BKF: no van con BPN. Si no dicen sección, mostrar la familia por sección y preguntar solo ese dato.
 
-### F02 · Cañería de PVC – Propuesta
+### FA02 · Cañería de PVC – Propuesta
 **Cuándo aplica:** piden caño rígido de PVC.
 **Qué necesitamos:** además del caño, de la misma línea y medida: conectores, curvas, uniones y grampas. Si no los pidieron, se ofrecen como "sugerido".
 **Cómo elegir:** la medida (pulgadas → mm, ver I02) y la clase del caño definen todos los accesorios.
 
-### F03 · Cajas de embutir – Propuesta
+### FA03 · Cajas de embutir – Propuesta
 **Cuándo aplica:** piden cajas de embutir.
 **Qué necesitamos:** mismo sistema que la cañería (PVC con PVC, chapa con chapa). Si son cajas de paso, tapas ciegas.
 **Cómo elegir:** forma (5x10, 5x5, 10x10, octogonal) y, en octogonales, chica o grande.
@@ -94,4 +95,4 @@ Si falta uno de estos datos, se muestran las variantes posibles y se pregunta so
 
 ## Pendientes de definir con el equipo
 - Qué hacer con los códigos con sufijo `/BORRAR` (ocultar, mostrar marcados o mostrar solo si tienen stock).
-- Confirmar F02 y F03.
+- Confirmar FA02 y FA03.
