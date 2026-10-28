@@ -43,3 +43,5 @@
 **2026-10-28 — Alcance de gestión (opción 2):** además del stock a mano, en consultas de disponibilidad el asistente muestra reservado (`qty_available` − `free_qty`), libre (`free_qty`), entrante (`incoming_qty`) y previsto (`virtual_available`). Precios, costos y proveedores quedan fuera. Campos verificados en Odoo el 2026-10-28.
 
 **2026-10-28 — Unidad de medida en Odoo:** hay cables cargados con unidad «Unidades» aunque el stock se lleva en metros. El asistente no debe asumir la unidad por el campo `uom_id`.
+
+**2026-10-28 — Regla R01 (familia Zoloda para tablero):** cuando piden borneras Zoloda se ofrece el juego BPN + BSLKN + D-BPN + JSSB + EKN1 + SE1, con tapa y puente según la sección del borne. Definida por Nicolás; detalle en `conocimiento/reglas-de-cotizacion.md`. Las reglas que el equipo quiere que el asistente recuerde se cargan en ese archivo (y en la carpeta Cerebro de Drive), no en la memoria del chat.
