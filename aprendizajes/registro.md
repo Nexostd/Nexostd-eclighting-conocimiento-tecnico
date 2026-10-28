@@ -21,3 +21,15 @@
 **2026-10-28 — Ejemplo didáctico:** diferencias entre selectividad S y superinmunidad SI en diferenciales Schneider. La clase A/AC/B es otra propiedad independiente.
 
 **2026-10-28 — Gestión del conocimiento:** GitHub privado almacena reglas, fichas, evidencia y correcciones validadas. Odoo mantiene códigos/stock actuales. El temario formativo permanece como borrador hasta revisión del área técnica.
+
+**2026-10-28 — Abreviaturas cortas:** SI, S o A sueltas traen ruido en la búsqueda (SIMPLE, SIN). Combinarlas con otra palabra clave del producto o con la marca en el código.
+
+**2026-10-28 — Pulgadas y milímetros:** los pedidos suelen venir en pulgadas y los productos PVC figuran en mm. Aplicar la equivalencia comercial y aclararla; pendiente de validación técnica.
+
+**2026-10-28 — Unidad de venta:** el cliente pide en barras, rollos o unidades; Odoo puede manejar metros o estuches. Verificar y avisar la diferencia.
+
+**2026-10-28 — Listas de materiales:** responder por rubro en tablas, priorizar accesorios del mismo sistema, marcar ⚠️ cuando el stock a mano no alcanza y cerrar con lo que hay que confirmar con el cliente.
+
+**2026-10-28 — Odoo solo lectura:** el asistente nunca modifica registros de Odoo, tampoco para corregir datos que detecte.
+
+**2026-10-28 — Pendiente:** definir cómo mostrar los productos con sufijo `/BORRAR` en el código.

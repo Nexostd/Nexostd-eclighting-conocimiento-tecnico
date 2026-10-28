@@ -34,3 +34,15 @@
 
 ## C10: Sin coincidencia
 - Si Odoo no tiene coincidencias fiables, explicar qué se buscó, no crear código ficticio.
+
+## C11: Lista de materiales de obra
+- Consulta: pedido completo con cajas (5x10, octogonales, 5x5, 10x10), caño rígido PVC 3/4", corrugado 3/4" y 1" en rollos, conectores, grampas, curvas, uniones, tarugos, tornillos, cable unipolar 1,5 y 2,5 por colores, y tablero ABB (disyuntores 25 A, térmicas 16 A y 10 A).
+- Debe proponer un producto por ítem, agrupado por rubro, priorizando el mismo sistema para cajas, caños y accesorios.
+- Debe convertir pulgadas a mm y aclararlo; verificar unidad de venta (metro, barra, rollo, estuche); marcar ⚠️ cuando el stock a mano no alcanza.
+- Debe cerrar con «Para confirmar con el cliente» (clase de caño, octogonal chica o grande, polos, clase del diferencial, medida de tornillos).
+- Resultado 2026-10-28: correcto con v2.
+
+## C12: Abreviaturas cortas
+- Consulta: «disyuntor super inmunizado schneider».
+- Debe encontrar SI, A-SI y A-SUP INMU sin traer ruido de palabras como SIMPLE o SIN (combinar la abreviatura con DIF/IID o con la marca en el código).
+- Resultado 2026-10-28: correcto tras agregar la regla de abreviaturas cortas.

@@ -17,3 +17,8 @@
 | LS0H/LSZH | Materiales con baja emisión de humo y libres de halógenos conforme a ensayos especificados |
 | PAT | Puesta a tierra |
 | AC-3 | Categoría de empleo para contactores, asociada a determinadas maniobras de motores |
+| ID / IID / iID | Denominaciones comerciales de interruptor diferencial (según fabricante) |
+| Disyuntor | Término de mostrador para interruptor diferencial |
+| Térmica | Término de mostrador para interruptor termomagnético |
+| Mignon | Caja de embutir 5x5 |
+| Clase AC / A / B | Tipo de corriente de fuga que detecta el diferencial; propiedad independiente de SI y S |

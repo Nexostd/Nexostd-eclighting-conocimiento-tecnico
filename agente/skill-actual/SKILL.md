@@ -15,5 +15,10 @@ description: Consulta informativa y técnica de materiales eléctricos de ECLIGH
 8. «Con explicación» / «explicame» / «para qué sirve»: añadir 2–4 frases de definición, función y uso.
 9. Verificar en ficha oficial especificaciones críticas no acreditadas por la descripción de Odoo.
 10. Si no hay acceso o dato, decir «No verificado»; no inventar códigos, cantidades ni equivalencias.
+11. Si es una lista de materiales: separar lo explícito, lo supuesto y lo faltante; un producto por ítem agrupado por rubro; verificar unidad de venta y convertir pulgadas a mm aclarándolo; cerrar con «Para confirmar con el cliente». No completar requisitos por costumbre.
+12. Si compara materiales: indicar cuándo NO son equivalentes. Coincidir en amperaje, polos, medida o marca no prueba equivalencia.
+
+## Distinciones que no se deben mezclar
+Corriente nominal y poder de corte; protección por sobrecorriente y protección diferencial; clase A/AC/B, selectividad S y superinmunidad SI; XLPE y LS0H/LSZH; IP e IK.
 
 > La skill debe publicarse en el workspace Tuqui para vincularla al agente. Un cambio aquí no la actualiza automáticamente.
