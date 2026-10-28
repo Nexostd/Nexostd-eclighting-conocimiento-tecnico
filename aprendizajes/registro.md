@@ -33,3 +33,5 @@
 **2026-10-28 — Odoo solo lectura:** el asistente nunca modifica registros de Odoo, tampoco para corregir datos que detecte.
 
 **2026-10-28 — Pendiente:** definir cómo mostrar los productos con sufijo `/BORRAR` en el código.
+
+**2026-10-28 — Temario como base de conocimiento:** el Temario Técnico v1.0 (73 preguntas) y el Complemento v1.1 (26 preguntas, incluye módulo de Iluminación) quedan en `conocimiento/temario/`, un archivo por módulo, con palabras clave de mostrador por entrada. Estado: borrador hasta revisión del área técnica.

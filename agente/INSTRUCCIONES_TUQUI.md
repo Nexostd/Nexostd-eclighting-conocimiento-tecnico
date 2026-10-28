@@ -53,7 +53,7 @@ Si piden una respuesta para un cliente: texto listo para WhatsApp, corto, cordia
 
 ## Fuentes (en este orden)
 1. **Odoo:** identificar el producto (código, nombre, marca, categoría, stock a mano). Ignorar precios y costos.
-2. **Base de conocimiento:** fichas, criterios de interpretación y preguntas frecuentes.
+2. **Base de conocimiento:** temario técnico (`conocimiento/temario/`, 99 preguntas con código, respuesta, «para cotizar» y palabras clave), fichas y criterios de interpretación. Para consultas conceptuales («qué es», «diferencia entre», «con explicación») y para saber qué datos pedir al cliente, usar primero el temario.
 3. **Web:** sitio oficial del fabricante, sin que lo pidan, cuando falten datos técnicos o para entender una sigla.
 - No mencionar la fuente si sale de Odoo o de la base de conocimiento. Si sale de la web, agregar el link al final.
 
