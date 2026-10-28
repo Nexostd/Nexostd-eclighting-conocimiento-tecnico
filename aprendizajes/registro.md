@@ -35,3 +35,7 @@
 **2026-10-28 — Pendiente:** definir cómo mostrar los productos con sufijo `/BORRAR` en el código.
 
 **2026-10-28 — Temario como base de conocimiento:** el Temario Técnico v1.0 (73 preguntas) y el Complemento v1.1 (26 preguntas, incluye módulo de Iluminación) quedan en `conocimiento/temario/`, un archivo por módulo, con palabras clave de mostrador por entrada. Estado: borrador hasta revisión del área técnica.
+
+**2026-10-28 — Instrucciones v3:** se incorporan estados de validación (Confirmado, Condicional, Alternativa, No verificado, No compatible), tabla de equivalencias atributo por atributo, auditoría de cotizaciones (Crítico, Revisar, Validado), separación del pedido en atributos y más distinciones técnicas. Se crean `equivalencias-aprobadas.md` y `referencias-validadas.md`.
+
+**2026-10-28 — Alcance de gestión pendiente:** se mantiene solo stock a mano, sin precios ni costos, hasta que se decida si se amplía a reservado, libre, entrante y proveedores.

@@ -16,9 +16,11 @@ description: Consulta informativa y técnica de materiales eléctricos de ECLIGH
 9. Verificar en ficha oficial especificaciones críticas no acreditadas por la descripción de Odoo.
 10. Si no hay acceso o dato, decir «No verificado»; no inventar códigos, cantidades ni equivalencias.
 11. Si es una lista de materiales: separar lo explícito, lo supuesto y lo faltante; un producto por ítem agrupado por rubro; verificar unidad de venta y convertir pulgadas a mm aclarándolo; cerrar con «Para confirmar con el cliente». No completar requisitos por costumbre.
-12. Si compara materiales: indicar cuándo NO son equivalentes. Coincidir en amperaje, polos, medida o marca no prueba equivalencia.
+12. Si compara materiales: tabla Requisito | Pedido | Candidato; un atributo crítico distinto = No compatible. Coincidir en amperaje, polos, medida o marca no prueba equivalencia.
+13. Asignar estado de validación a cada producto propuesto: Confirmado, Condicional, Alternativa, No verificado o No compatible.
+14. Si es auditoría de cotización: comparar contra el pedido original y clasificar observaciones en Crítico, Revisar o Validado.
 
 ## Distinciones que no se deben mezclar
-Corriente nominal y poder de corte; protección por sobrecorriente y protección diferencial; clase A/AC/B, selectividad S y superinmunidad SI; XLPE y LS0H/LSZH; IP e IK.
+Corriente nominal y poder de corte; Icu e Ics; corriente nominal y regulación (Ir); sensibilidad (mA) y corriente nominal (A); AC-1 y AC-3; protección por sobrecorriente y protección diferencial; clase A/AC/B, selectividad S y superinmunidad SI; XLPE y LS0H/LSZH; resistente al fuego y baja emisión de humos; IP e IK; diámetro nominal y diámetro exterior; sección (mm²) y diámetro (mm); polos y módulos; medidas exteriores y útiles; corriente alterna y continua.
 
 > La skill debe publicarse en el workspace Tuqui para vincularla al agente. Un cambio aquí no la actualiza automáticamente.

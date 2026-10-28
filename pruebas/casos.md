@@ -46,3 +46,27 @@
 - Consulta: «disyuntor super inmunizado schneider».
 - Debe encontrar SI, A-SI y A-SUP INMU sin traer ruido de palabras como SIMPLE o SIN (combinar la abreviatura con DIF/IID o con la marca en el código).
 - Resultado 2026-10-28: correcto tras agregar la regla de abreviaturas cortas.
+
+## Banco de pruebas objetivo (30 casos)
+Distribución: interpretación de pedidos 8 · identificación de códigos 8 · equivalencias 6 · consultas a Odoo 4 · auditoría de cotizaciones 4.
+En cada prueba registrar: resultado esperado, producto identificado, fuentes usadas, errores técnicos y consultas innecesarias. Preferir pedidos reales ya cotizados (anonimizados).
+
+## C13: Caja moldeada con datos faltantes
+- Consulta: «Interruptor caja moldeada Schneider 4x160A 36kA».
+- Debe identificar familia MCCB, 4 polos, 160 A, 36 kA; estado **Condicional**: faltan tensión y unidad de disparo. No inventar código.
+
+## C14: Equivalencia que no cumple
+- Consulta: pedido de diferencial 4x40 A 300 mA clase A selectivo; candidato 4x40 A 30 mA clase AC no selectivo.
+- Debe mostrar tabla Requisito | Pedido | Candidato y concluir **No compatible**, aunque coincidan polos y amperaje.
+
+## C15: Gabinete con accesorios
+- Consulta: «Gabinete metálico IP65 1000×800×300 con placa de montaje, contrafrente ciego abisagrado y zócalo».
+- Debe separar atributos, buscar primero el gabinete y luego indicar si placa, contrafrente y zócalo vienen incluidos o llevan código aparte.
+
+## C16: Seccionador portafusibles
+- Consulta: «Seccionadora NH3 630 A».
+- Debe distinguir tamaño de fusible (NH3) de corriente (630 A), preguntar polos y si es bajo carga, y no confundir con seccionador sin fusibles.
+
+## C17: Auditoría de cotización
+- Consulta: revisar una cotización contra el pedido del cliente.
+- Debe clasificar observaciones en Crítico / Revisar / Validado. Si no tiene el pedido original, debe decir que no puede confirmar la coincidencia completa.
