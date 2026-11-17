@@ -21,3 +21,9 @@
 **2026-10-28 — Ejemplo didáctico:** diferencias entre selectividad S y superinmunidad SI en diferenciales Schneider. La clase A/AC/B es otra propiedad independiente.
 
 **2026-10-28 — Gestión del conocimiento:** GitHub privado almacena reglas, fichas, evidencia y correcciones validadas. Odoo mantiene códigos/stock actuales. El temario formativo permanece como borrador hasta revisión del área técnica.
+
+**2026-11-17 — Listas de proveedor (Trefilcon y Genrod):** los borradores de planillas se armaron sin precios; ver `catalogo/listas-proveedor/`.
+- Código TREFI: [sección en dos dígitos][dígito de color]/TREFI. La regla fue indicada por el equipo y comprobada contra las 36 filas numéricas del borrador. Sigue sin verificar contra ficha de fabricante.
+- Genrod: una misma referencia puede estar en más de una lista (67 casos en la hoja INTEGRAL). La clave de búsqueda es código + marca.
+- Códigos con "/25" de Trefilcon (por ejemplo LSOHST3X50/25) son productos distintos de los que no lo tienen.
+- Los productos discontinuados quedaron en la planilla con su estado, para no perder referencias históricas.
